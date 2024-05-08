@@ -2,7 +2,6 @@ import styles from "../../../styles/Home.module.css";
 
 export default function Header() {
   const handleCommit = (e : boolean) => {
-    console.log(e)
     return e;
   }
 

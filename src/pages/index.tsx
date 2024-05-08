@@ -1,8 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import styles from "../../styles/Home.module.css";
-import group from '../../public/undraw_add_tasks_re_s5yj 1.png'
+import group from '../../public/undraw_add_tasks_re_s5yj1.png'
 
 export default function Home() {
   return ( 
@@ -17,12 +16,7 @@ export default function Home() {
       </Head>
 
         <div className={styles.group}>
-          <Image
-            className={styles.imageGroup}
-            alt="Logo Tarefas+"
-            src={group}
-            priority
-          />
+          <Image className={styles.imageGroup} alt="Logo Tarefas+" src={group} priority />
         </div>
         <div className={styles.group}>
         <h1 className={styles.title}>

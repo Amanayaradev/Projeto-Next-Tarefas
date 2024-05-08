@@ -8,7 +8,6 @@ import { useState } from "react";
 export default function Header() {
 
   const { data: session, status} = useSession();
-  console.log(session, status)
   return (
       <header className={styles.header}>
         <div className={styles.tarePainel}>
