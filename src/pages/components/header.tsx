@@ -1,9 +1,8 @@
 import Image from "next/image";
 import {signIn, signOut, useSession} from 'next-auth/react'
-import styles from "../../styles/Home.module.css";
-import heroImg from '@/public/Tarefas+.svg'
+import styles from "../../../styles/Home.module.css";
+import heroImg from '../../../public/Tarefas+.svg'
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Header() {
 
@@ -11,8 +10,8 @@ export default function Header() {
   return (
       <header className={styles.header}>
         <div className={styles.tarePainel}>
-        <Link href={"/"}>
-          <Image alt="logo" src={heroImg} priority></Image>
+        <Link href="/">
+          <Image alt="logo" src={heroImg} priority/>
         </Link>
         {
           session ? (<Link href="/dashboard" className={styles.meuPinel}>Meu Painel</Link>) : <></>
