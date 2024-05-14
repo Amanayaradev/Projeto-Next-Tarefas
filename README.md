@@ -16,7 +16,7 @@ Inicie o servidor de desenvolvimento:
 
 npm run dev
 
-#Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Next.js
 - React
