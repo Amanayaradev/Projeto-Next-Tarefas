@@ -28,7 +28,7 @@ npm run dev
 
 - Next.js
 - React
-- Tailwind CSS
+- CSS
 - Firebase (para armazenamento das tarefas)
 - NextAuth.js (para autenticação com o Google)
-- Desenvolvido por Seu Nome.
+- Desenvolvido por Amana.
