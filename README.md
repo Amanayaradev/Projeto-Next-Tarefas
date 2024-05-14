@@ -6,7 +6,7 @@ Este é um aplicativo de lista de tarefas desenvolvido com Next.js, utilizando o
 
 - Adicionar, remover e editar tarefas.
 - Marcar tarefas como completas.
-- Visualizar todas as tarefas ou apenas as completas.
+- Visualizar todas as tarefas
 
 ## Instalação
 
